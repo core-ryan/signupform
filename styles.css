@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+.doc-container{
+    display: flex;
+}
+
+.left-side-panel{
+    background-image: url("./images/leaves.jpg");
+    background-size: cover;
+    flex-shrink: 1;
+    height: 100vh;
+    width: 33.33vw;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.logo-container{
+    height:200px;
+    width: 100%;
+    background: rgb(0,0,0,0.55);
+    color: white;
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side-panel{
+    flex-shrink: 2;
+}
+
+#pic{
+    height: 100vh;
+}

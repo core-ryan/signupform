@@ -32,6 +32,53 @@
     flex-shrink: 2;
 }
 
+.info-panel{
+    height: 300px;
+}
+
+#user-info input{
+    display: block;
+}
+
+.form-section{
+    background-color: lightgray;
+    height: 500px;
+    width: 66.66vw;
+    display: flex;
+    align-items: center;
+    
+}
+
+.form-section > section > h1{
+    font-size: 40px; 
+    margin: 15px;
+    margin-bottom: 20px;
+    margin-left: 75px;
+}
+
+.form-row{
+    display: flex;
+}
+
+.form-row > p{
+    display:block;
+    margin: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+input, label{
+    font-size: 26px;
+    
+}
+
+input:focus{
+    border-color: blue;
+    border-style: solid;
+    border-radius: 5px;
+    
+}
+
 #pic{
     height: 100vh;
 }

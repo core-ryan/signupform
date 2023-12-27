@@ -1,9 +1,11 @@
 *{
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .doc-container{
     display: flex;
+    background-color: rgb(245, 245, 245);
 }
 
 .left-side-panel{
@@ -33,7 +35,15 @@
 }
 
 .info-panel{
+    position: relative;
     height: 300px;
+}
+
+.ip-text-content{
+    position: absolute;
+    bottom: 0;
+    margin: 75px;
+    font-size: 24px;
 }
 
 #user-info input{
@@ -41,7 +51,7 @@
 }
 
 .form-section{
-    background-color: lightgray;
+    background-color: rgb(255, 255, 255);
     height: 500px;
     width: 66.66vw;
     display: flex;
@@ -64,19 +74,57 @@
     display:block;
     margin: 15px;
     margin-left: 75px;
-    margin-right: 75px;
+    /* margin-right: 75px; */
 }
 
 input, label{
-    font-size: 26px;
+    font-size: 18px;
+    color: #333333;
+    height: 30px;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    margin-top:10px;
+    width:300px;
+}
+
+input:valid:focus{
+    outline-style: none;
+    outline-width: 2px;
+    outline-color:#596D48;
+    border-color: #596D48;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
     
 }
 
-input:focus{
-    border-color: blue;
+input:invalid:focus{
+    outline-style: none;
+    outline-color:red;
+    border-color: red;
     border-style: solid;
-    border-radius: 5px;
-    
+    border-width: 2px;
+}
+
+.submit-section-content{
+    margin: 75px;
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.submit-section-content > button{
+    margin-bottom: 20px;
+    background-color: #596D48;
+    color: white;
+    padding: 15px;
+    border-radius: 11px;
+    border-color: bisque;
+    font-size: 22px;
+    width: 250px;
+}
+
+.submit-section-content > p > span{
+    color: #596D48;
 }
 
 #pic{
